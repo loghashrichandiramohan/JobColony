@@ -1,0 +1,13 @@
+# === file: requirements.txt ===
+fastapi
+uvicorn[standard]
+python-multipart
+sqlmodel
+aiohttp
+openai
+PyPDF2
+python-docx
+numpy
+scikit-learn
+requests
+

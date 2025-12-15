@@ -1,0 +1,42 @@
+name: JobColony
+description: JobColony (Flutter + Riverpod)
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  http: ^0.13.5
+  file_picker: ^8.0.0
+  flutter_dotenv: ^5.0.2
+  url_launcher: ^6.1.10
+  google_sign_in: ^6.1.1
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.12.0"
+  flutter_native_splash: "^2.3.0"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo_splash.png
+    - assets/logo_main.png
+    - assets/google_logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_main.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo_splash.png
+  android: true
+  ios: true
